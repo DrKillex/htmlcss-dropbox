@@ -24,15 +24,32 @@ header .un-terzo-col p {
     line-height: 1.3em;
 }
 
-.radio-txt {
+.radio-txt, .tiny-col {
     font-size: 11px;
+}
+
+.tiny-col h3 {
+    font-size: 18px;
+}
+
+.tiny-col h6 {
+    font-size: 12px;
 }
 
 .title-tiny-col {
     text-align: center;
+    font-size: 12px;
 }
 
 /* common */
+
+.scecond-part-tiny-col {
+    margin-top: 40px;
+}
+
+li {
+    list-style-type: none;
+}
 
 .flex-container {
     display: flex;
@@ -69,6 +86,15 @@ header .un-terzo-col p {
     width: calc(100% / 3 - 20px);
 }
 
+.tiny-col > * {
+    padding: 10px;
+}
+
+.title-tiny-col {
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
 /* header */
 
 header {
@@ -102,10 +128,6 @@ img {
     width: 100%;
 }
 
-header li {
-    list-style-type: none;
-}
-
 header a {
     text-decoration: none;
     color: black;
@@ -115,7 +137,7 @@ header a {
 
 .jumbo {
     position: relative;
-    bottom: -50px;
+    top: 70px;
 }
 
 header .un-terzo-col div:nth-child(2) {
@@ -129,8 +151,31 @@ header .un-terzo-col i {
 
 /* main */
 
+.tre-col-container {
+    justify-content: space-between;
+}
+
 .tre-col-container > .tiny-col {
     border: 1px solid black;
+}
+
+main div.btn.btn-primary {
+    padding: 10px 0;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.btn-inherit {
+    color: inherit;
+    text-decoration: none;
+}
+
+.fa-solid.fa-check.blu {
+    color: #0061ff;
+}
+
+.tiny-col li {
+    padding: 10px 0;
 }
 
 /* footer */

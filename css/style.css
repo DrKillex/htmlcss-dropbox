@@ -12,6 +12,26 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    margin-top: 40px;
+}
+
+.un-terzo-col, .un-terzo-col a {
+    font-size: 12px;
+}
+
+header .un-terzo-col p {
+    line-height: 1.3em;
+}
+
+.radio-txt {
+    font-size: 11px;
+}
+
+.title-tiny-col {
+    text-align: center;
+}
+
 /* common */
 
 .flex-container {
@@ -20,14 +40,40 @@ body {
 
 .btn.btn-primary {
     background-color: #0061FF;
+    color: white;
+}
+
+.container-large {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.container-normal {
+    width: 60vw;
+    margin: 100px auto;
+}
+
+.un-terzo-col {
+    width: 30%;
+}
+
+.due-terzi-col {
+    width: 70%;
+}
+
+.radio-div {
+    margin: 30px 0 20px 0;
+}
+
+.tiny-col {
+    width: calc(100% / 3 - 20px);
 }
 
 /* header */
 
 header {
     background-color: #B4D0E7;
-    height: 400px;
-    /* padding-top: 100px; */
+    padding-top: 100px;
 }
 
 nav {
@@ -36,10 +82,11 @@ nav {
     align-items: center;
     height: 80px;
     padding-left: 10px;
-    /* position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
-    right: 0; */
+    right: 0;
+    z-index: 666;
 }
 
 .nav-left a , .nav-right a {
@@ -50,7 +97,7 @@ header ul.flex-container {
     align-items: center;
 }
 
-header a img {
+img {
     display: block;
     width: 100%;
 }
@@ -62,12 +109,28 @@ header li {
 header a {
     text-decoration: none;
     color: black;
-    font-size: 14px;
+    font-size: 13px;
     padding: 5px 10px;
+}
+
+.jumbo {
+    position: relative;
+    bottom: -50px;
+}
+
+header .un-terzo-col div:nth-child(2) {
+    margin: 40px 0;
+}
+
+header .un-terzo-col i {
+    margin: 40px 0 0 0;
+    font-size: 30px;
 }
 
 /* main */
 
-
+.tre-col-container > .tiny-col {
+    border: 1px solid black;
+}
 
 /* footer */

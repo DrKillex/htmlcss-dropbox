@@ -8,16 +8,63 @@
 
 /* typo */
 
-/* font-family: 'Roboto', sans-serif; */
-
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 /* common */
 
+.flex-container {
+    display: flex;
+}
 
+.btn.btn-primary {
+    background-color: #0061FF;
+}
 
 /* header */
 
+header {
+    background-color: #B4D0E7;
+    height: 400px;
+    /* padding-top: 100px; */
+}
 
+nav {
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding-left: 10px;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; */
+}
+
+.nav-left a , .nav-right a {
+    margin: 0 10px;
+}
+
+header ul.flex-container {
+    align-items: center;
+}
+
+header a img {
+    display: block;
+    width: 100%;
+}
+
+header li {
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding: 5px 10px;
+}
 
 /* main */
 

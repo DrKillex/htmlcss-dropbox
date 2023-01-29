@@ -171,7 +171,7 @@ header .un-terzo-col i {
     margin: 20px;
 }
 
-.tre-col-container > .tiny-col {
+.tre-col-container > .tiny-col.border-black {
     border: 1px solid black;
 }
 

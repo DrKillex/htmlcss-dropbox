@@ -79,7 +79,6 @@ li {
     width: 60%;
 }
 
-
 .radio-div {
     margin: 30px 0 20px 0;
 }
@@ -111,7 +110,6 @@ header {
 .jumbo .due-terzi-col {
     width: 70%;
 }
-
 
 nav {
     background-color: #FFFFFF;
@@ -172,8 +170,6 @@ header .un-terzo-col i {
     font-size: 30px;
 }
 
-
-
 /* main */
 
 .tre-col-container {
@@ -208,6 +204,7 @@ main div.btn.btn-primary {
 .tiny-col li {
     padding: 10px 0;
 }
+
 .tiny-col.wide {
     flex-grow: 1;
     margin-bottom: 30px;
@@ -316,7 +313,7 @@ background-color: red;
 #under-partner {
     background-color: #B4D0E7;
     width: 100%;
-    padding: 100px 0 100px 0;
+    padding: 100px 0;
 }
 
 #under-partner .flex-container.container-normal {
@@ -329,7 +326,6 @@ background-color: red;
 #under-partner .flex-container.container-normal h2 {
     width: 50%;
 }
-
 
 .btn.btn-secondary {
     background-color: white;
@@ -356,6 +352,10 @@ background-color: red;
 .qna .flex-container:hover p,
 .qna .flex-container:hover i.fa-chevron-up {
     display: block;
+}
+
+.qna h2 {
+    margin-bottom: 20px;
 }
 
 /* footer */
@@ -398,4 +398,5 @@ footer .container-large hr {
 footer .container-large span {
     margin-top: 20px;
     display: block;
+    font-size: 10px;
 }

@@ -231,7 +231,7 @@ div.tiny-col.wide div.flex-container .wide-left h6 {
 }
 
 .partner-div {
-    width: 100vw;
+    width: 100%;
     height:  calc(100vw / 3);
 }
 
@@ -244,24 +244,29 @@ div.tiny-col.wide div.flex-container .wide-left h6 {
 .partner-vip {
     width: calc(100% / 3);
     height: 100%;
+    padding: 30px;
+}
+
+.partner-vip img {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.partner-vip div {
+    margin-top: 20px;
 }
 
 .partner-square {
     width: 50%;
     height: 50%;
-    border: 1px solid black;
     justify-content: center;
     align-items: center;
 }
 
 .partner-square img {
     width: 50%;
+    filter: invert(1);
 }
-
-.partner-square img path {
-    fill: white;
-}
-
 
 .partner-square#designit {
     background-color: #A2D39B;
@@ -276,7 +281,24 @@ div.tiny-col.wide div.flex-container .wide-left h6 {
     background-color: #0093CE;
 }
 
+.partner-square#planet {
+    background-color: #0D2481;
+}
+
+.partner-square#cchannel {
+    background-color: #FFD830;
+}
+
+.partner-vip {
+    background-color: #F5F5F5;
+}
+
 .partner-square.red-bg {
 background-color: red;
 }
+
+.partner-square#hearst {
+    background-color: #B4D0E7;
+}
+
 /* footer */

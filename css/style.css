@@ -301,4 +301,54 @@ background-color: red;
     background-color: #B4D0E7;
 }
 
+#under-partner {
+    background-color: #B4D0E7;
+    width: 100%;
+    padding: 100px 0 100px 0;
+}
+
+#under-partner .flex-container.container-normal {
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#under-partner .flex-container.container-normal h2 {
+    width: 50%;
+}
+
+
+.btn.btn-secondary {
+    background-color: white;
+    padding: 5px 20px;
+}
+
+.qna .flex-container {
+    padding: 20px 0;
+}
+
+.qna .flex-container .qna-left {
+    width: 90%;
+}
+
+.qna-left p, i.fa-chevron-up,
+.qna .flex-container:hover i.fa-chevron-down {
+    display: none;
+}
+
+.qna .flex-container:hover p {
+    margin-top: 15px;
+}
+
+.qna .flex-container:hover p,
+.qna .flex-container:hover i.fa-chevron-up {
+    display: block;
+}
+
 /* footer */
+
+footer {
+    background-color: black;
+    color: white;
+}

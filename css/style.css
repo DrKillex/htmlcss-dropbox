@@ -17,10 +17,6 @@ h1 {
     font-size: 77px;
 }
 
-/* .un-terzo-col, .un-terzo-col a {
-    font-size: 12px;
-} */
-
 header .un-terzo-col p {
     line-height: 1.3em;
 }
@@ -32,10 +28,6 @@ header .un-terzo-col p {
 .tiny-col h3 {
     font-size: 18px;
 }
-
-/* .tiny-col h6 {
-    font-size: 12px;
-} */
 
 .title-tiny-col {
     text-align: center;
@@ -367,6 +359,10 @@ background-color: red;
 .qna .flex-container:hover p,
 .qna .flex-container:hover i.fa-chevron-up {
     display: block;
+}
+
+.sei-colonne {
+    margin: 0 -10px;
 }
 
 .qna h2 {

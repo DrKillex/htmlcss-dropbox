@@ -116,7 +116,6 @@ header {
 nav {
     background-color: #FFFFFF;
     justify-content: space-between;
-    align-items: center;
     height: 80px;
     padding-left: 10px;
     position: fixed;
@@ -124,6 +123,11 @@ nav {
     left: 0;
     right: 0;
     z-index: 666;
+    box-shadow: 0 0 5px 0 #000000;
+}
+
+nav li:hover {
+    border-bottom: 2px solid black;
 }
 
 .nav-left a , .nav-right a {
@@ -131,7 +135,15 @@ nav {
 }
 
 header ul.flex-container {
-    align-items: center;
+    height: 80px;
+}
+
+nav li:not(.logo) {
+    line-height: 80px;
+}
+
+.logo {
+    line-height: 28px;
 }
 
 img {
@@ -332,7 +344,7 @@ background-color: red;
     width: 90%;
 }
 
-.qna-left p, i.fa-chevron-up,
+.qna-left p, .qna i.fa-chevron-up,
 .qna .flex-container:hover i.fa-chevron-down {
     display: none;
 }
@@ -351,4 +363,39 @@ background-color: red;
 footer {
     background-color: black;
     color: white;
+    padding: 20px 0;
+}
+
+.col-footer {
+    width: calc(100% / 5);
+    padding: 50px 0;
+}
+
+.col-footer h3 {
+    margin: 20px 0;
+}
+
+.col-footer li {
+    margin: 10px 0;
+}
+
+footer .container-large {
+    margin-bottom: 0;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
+}
+
+footer .container-large hr {
+    width: 15%;
+}
+
+footer .container-large span {
+    margin-top: 20px;
+    display: block;
 }

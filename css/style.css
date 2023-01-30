@@ -9,32 +9,33 @@
 /* typo */
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
     margin-top: 40px;
+    font-size: 77px;
 }
 
-.un-terzo-col, .un-terzo-col a {
+/* .un-terzo-col, .un-terzo-col a {
     font-size: 12px;
-}
+} */
 
 header .un-terzo-col p {
     line-height: 1.3em;
 }
 
 .radio-txt, .tiny-col {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tiny-col h3 {
     font-size: 18px;
 }
 
-.tiny-col h6 {
+/* .tiny-col h6 {
     font-size: 12px;
-}
+} */
 
 .title-tiny-col {
     text-align: center;
@@ -159,6 +160,8 @@ header .un-terzo-col i {
     font-size: 30px;
 }
 
+
+
 /* main */
 
 .tre-col-container {
@@ -227,4 +230,53 @@ div.tiny-col.wide div.flex-container .wide-left h6 {
     margin-bottom: 30px;
 }
 
+.partner-div {
+    width: 100vw;
+    height:  calc(100vw / 3);
+}
+
+.partner-section {
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+    height: 100%;
+}
+
+.partner-vip {
+    width: calc(100% / 3);
+    height: 100%;
+}
+
+.partner-square {
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner-square img {
+    width: 50%;
+}
+
+.partner-square img path {
+    fill: white;
+}
+
+
+.partner-square#designit {
+    background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
+}
+
+.partner-square#asu {
+    background-color: #61082B;
+}
+
+.partner-square#uf {
+    background-color: #0093CE;
+}
+
+.partner-square.red-bg {
+background-color: red;
+}
 /* footer */

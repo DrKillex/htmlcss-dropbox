@@ -218,6 +218,21 @@ main div.btn.btn-primary {
     width: 30%;   
 }
 
+.div-bottone {
+    margin-top: 20px;
+}
+
+.btn.btn-bordato {
+    padding: 10px 5px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+.section-prima .un-terzo-col {
+    padding-left: 20px;
+}
+
 div.tiny-col.wide div.flex-container {
     align-items: flex-start;
     gap: 20px;

@@ -57,6 +57,11 @@ li {
     color: white;
 }
 
+.btn.btn-primary:hover {
+    background-color: #8CD0E7;
+    color: white;
+}
+
 .container-large {
     max-width: 1200px;
     margin: 0 auto;

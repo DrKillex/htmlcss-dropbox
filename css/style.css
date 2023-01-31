@@ -54,12 +54,12 @@ li {
 }
 
 .container-large {
-    width: 70vw;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .container-normal {
-    width: 60vw;
+    max-width: 1080px;
     margin: 100px auto;
 }
 
@@ -168,6 +168,11 @@ header .un-terzo-col i {
     margin: 0 -20px;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+main .tiny-col hr {
+    width: 20%;
+    margin-top: 20px;
 }
 
 .tre-col-container .tiny-col {
@@ -307,6 +312,7 @@ div.tiny-col.wide div.flex-container .wide-left h6 {
 
 .partner-vip {
     background-color: #F5F5F5;
+    overflow: auto;
 }
 
 .partner-square.red-bg {

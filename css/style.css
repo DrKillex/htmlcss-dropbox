@@ -27,11 +27,15 @@ header .un-terzo-col p {
 
 .tiny-col h3 {
     font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.prezzo {
+    margin-bottom: 10px;
 }
 
 .title-tiny-col {
     text-align: center;
-    font-size: 12px;
 }
 
 /* common */
@@ -72,7 +76,7 @@ li {
 }
 
 .radio-div {
-    margin: 30px 0 20px 0;
+    margin: 50px 0 40px;
 }
 
 .tiny-col {
@@ -80,7 +84,7 @@ li {
 }
 
 .tiny-col > * {
-    padding: 10px;
+    padding: 20px;
 }
 
 .title-tiny-col {
@@ -97,6 +101,7 @@ header {
 
 .jumbo .un-terzo-col {
     width: 30%;
+    position: relative;
 }
 
 .jumbo .due-terzi-col {
@@ -144,7 +149,7 @@ img {
 header a {
     text-decoration: none;
     color: black;
-    font-size: 13px;
+    font-size: 14px;
     padding: 5px 10px;
 }
 
@@ -158,11 +163,17 @@ header .un-terzo-col div:nth-child(2) {
 }
 
 header .un-terzo-col i {
-    margin: 40px 0 0 0;
     font-size: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 100px;
 }
 
 /* main */
+
+.tiny-col ul {
+    margin-top: 40px;
+}
 
 .tre-col-container {
     margin: 0 -20px;
@@ -172,7 +183,7 @@ header .un-terzo-col i {
 
 main .tiny-col hr {
     width: 20%;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .tre-col-container .tiny-col {
@@ -186,7 +197,7 @@ main .tiny-col hr {
 main div.btn.btn-primary {
     padding: 10px 0;
     text-align: center;
-    margin: 10px 0;
+    margin: 30px 0 20px;
 }
 
 .btn-inherit {
@@ -204,7 +215,7 @@ main div.btn.btn-primary {
 
 .tiny-col.wide {
     flex-grow: 1;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 .wide-left {
@@ -216,7 +227,7 @@ main div.btn.btn-primary {
 }
 
 .div-bottone {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .btn.btn-bordato {
@@ -227,7 +238,7 @@ main div.btn.btn-primary {
 }
 
 .section-prima .un-terzo-col {
-    padding-left: 20px;
+    padding-left: 80px;
 }
 
 div.tiny-col.wide div.flex-container {
@@ -236,19 +247,24 @@ div.tiny-col.wide div.flex-container {
 }
 
 div.tiny-col.wide div.flex-container .wide-left h3 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-div.tiny-col.wide div.flex-container .wide-left h6 {
-    margin-bottom: 20px;
+div.tiny-col.wide div.flex-container .wide-left div {
+    margin-bottom: 40px;
 }
 
 .un-terzo-col h2 {
     margin-bottom: 20px;
 }
 
-.section-prima {
+.sei-colonne h2 {
+    font-size: 40px;
     margin-bottom: 30px;
+}
+
+.section-prima {
+    margin-bottom: 100px;
 }
 
 .partner-div {
@@ -274,7 +290,12 @@ div.tiny-col.wide div.flex-container .wide-left h6 {
 }
 
 .partner-vip div {
-    margin-top: 20px;
+    margin-top: 40px;
+}
+
+.partner-vip hr {
+    width: 20%;
+    margin: 40px 0 30px 0
 }
 
 .partner-square {
@@ -334,10 +355,12 @@ background-color: red;
     margin-bottom: 0;
     justify-content: space-between;
     align-items: center;
+    color: #61082B;
 }
 
 #under-partner .flex-container.container-normal h2 {
     width: 50%;
+    font-size: 40px;
 }
 
 .btn.btn-secondary {
@@ -345,8 +368,13 @@ background-color: red;
     padding: 5px 20px;
 }
 
+#under-partner a {
+    text-decoration: none;
+    color: black;
+}
+
 .qna .flex-container {
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 .qna .flex-container .qna-left {
@@ -372,7 +400,17 @@ background-color: red;
 }
 
 .qna h2 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.scopri-team {
+    width: 70%;
+}
+
+.scopri-team h2 {
+    font-size: 40px;
+    margin: 100px 0 30px 0;
 }
 
 /* footer */
@@ -390,10 +428,11 @@ footer {
 
 .col-footer h3 {
     margin: 20px 0;
+    font-size: 23px;
 }
 
 .col-footer li {
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 footer .container-large {
@@ -405,15 +444,15 @@ footer .container-large {
 footer a {
     text-decoration: none;
     color: inherit;
-    font-size: 13px;
 }
 
 footer .container-large hr {
     width: 15%;
+    margin: 40px 0 30px 0;
 }
 
 footer .container-large span {
     margin-top: 20px;
     display: block;
-    font-size: 10px;
+    font-size: 14px;
 }
